@@ -60,7 +60,7 @@ function counterCount(n,str){
 }
 // 
 counterCount(4, "Oh hi, I didn't see you there. Welcome.")
-counterCount(38,"Oh hi, I didn't see you there. Welcome.")
+counterCount(36,"Oh hi, I didn't see you there. Welcome.")
 makeBanner(5)
 // 5. Write a function that prints out the index of every `u` it finds in the given string. Do not use `indexOf`. Now call it with `'You picked the wrong house, bub.'`. You should see `2`, `23`, and `29` printed out. 
 function index(str){
@@ -87,7 +87,7 @@ makeBanner(7)
 // 7. Write a function that prints out the first index of the letter `u` in the given string, with a `-1` printed if it doesn't find it. Do not use `indexOf`. Now call it with `'You picked the wrong house, bub.'` You should see the number `2` printed, and only that. Now call it with `"I'm Canadian."` You should see `-1` print out.
 function twoIndex(str){
     let counter = 1
-    let counter2 = 2
+
     for(i=0;i<=str.length;i++){
     if (str[i]==='u' && counter === 1){
     console.log(i)
